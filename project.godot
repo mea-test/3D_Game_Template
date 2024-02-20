@@ -25,6 +25,10 @@ window/size/fullscreen=true
 
 enabled=PackedStringArray("res://addons/csg_mesher/plugin.cfg")
 
+[global]
+
+layer=false
+
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true
@@ -90,6 +94,12 @@ look_down={
 "deadzone": 0.5,
 "events": []
 }
+
+[layer_names]
+
+3d_physics/layer_1="Player"
+3d_physics/layer_2="Platforms"
+3d_physics/layer_3="Portals"
 
 [physics]
 
